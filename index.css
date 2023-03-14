@@ -159,7 +159,6 @@ the websites, in light theme
 .profile__profession{
     font-size: var(--smaller-font-size);
     font-weight: 500;
-    color: var(--text-color);
     margin-bottom: 1rem;
 }
 
