@@ -164,7 +164,7 @@ the websites, in light theme
 
 .profile__social-link{
     font-size: 1.25rem;
-    color: purple;
+    color: --first-color-alt;
     transition: .3s;
 }
 
@@ -212,7 +212,7 @@ the websites, in light theme
     display: inline-flex;
     align-items: center;
     column-gap: .5rem;
-    background-color: purple;
+    background-color: var(--first-color-alt);
     color: #fff;
     padding: 1.15rem 1.5rem;
     border-radius: .5rem;
