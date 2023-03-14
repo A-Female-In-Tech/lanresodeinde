@@ -92,8 +92,10 @@ the websites, in light theme
 
 /* Reusable CSS Classes */
 .fixed{
-    position: sticky;
+    position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
 }
 
 .container{
