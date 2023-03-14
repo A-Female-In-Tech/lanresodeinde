@@ -91,12 +91,6 @@ the websites, in light theme
 
 
 /* Reusable CSS Classes */
-.fixed{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-}
 
 .container{
     max-width: 968px;
@@ -218,7 +212,7 @@ the websites, in light theme
     display: inline-flex;
     align-items: center;
     column-gap: .5rem;
-    background-color: var(--first-color);
+    background-color: var(--text-color-lighten);
     color: #fff;
     padding: 1.15rem 1.5rem;
     border-radius: .5rem;
