@@ -56,7 +56,7 @@
 body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: hsl(207, 98%, 61%);
+    background-color: var(--first-color-alt);
     color: var(--text-color); 
 }
 
@@ -212,7 +212,7 @@ the websites, in light theme
     display: inline-flex;
     align-items: center;
     column-gap: .5rem;
-    background-color: var(--first-color);
+    background-color: var(--text-color-light);
     color: #fff;
     padding: 1.15rem 1.5rem;
     border-radius: .5rem;
@@ -225,7 +225,7 @@ the websites, in light theme
 }
 
 .button:hover{
-    background-color: var(--first-color-alt);
+    background-color: var(--first-color);
 }
 
 .button__small{
